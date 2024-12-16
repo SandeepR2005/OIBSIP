@@ -1,0 +1,8 @@
+*{
+    padding:0;
+    margin:0;
+}
+.background{
+    width:700px;
+    box-shadow:5px 8px #555;
+}
