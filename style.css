@@ -17,13 +17,18 @@ li{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     font-size:17px;
 }
-li, a:hover{
-   color:red;
+a:hover{
+   color:bisque;
 }
 header{
     background-color: #555;
-    height:max-content
+    height:max-content;
 }
-@media screen 700px,300px {
-    .navbar,li
+.bg{
+    background-color:beige;
+    height:min-content;
+}
+.img1{
+    width:700px;
+
 }
