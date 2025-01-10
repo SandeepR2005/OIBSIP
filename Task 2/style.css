@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: #555;
+    padding:15px;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    padding-right:15px;
+    gap: 15px;
+    justify-content: flex-end;
+}
+li a{
+    text-decoration: none;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+li{
+    padding:9px;
+    display: inline;
+    
+}
+li a:hover{
+    text-decoration:underline;
+    color:orange ;
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+    }
+    li {
+        padding: 8px 0;
+    }
+}
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+
+    li a {
+        font-size: 14px;
+    }
+}
+.background {
+    background-color: #666; 
+    height: 100vh; 
+    border: 7px solid lightslategray;
+    border-radius: 10px;
+    padding:15px;
+}
+h1{
+    font-family:"unisans";
+    color:whitesmoke;
+    padding:20px;
+}
+@font-face {
+    font-family: 'Milan';
+    src: url('Milanello\ -\ Free\ Personal.otf');                                                                                                                                                              
+    font-family: 'unisans';
+    src: url('Uni\ Sans\ Heavy.otf');
+}
+.list{
+    display:block;
+}
+.bio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white ;
+}
+.items {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: orange;
+    font-family: ;
+}
+li{
+    color:white;
+    display: block;
+    padding-left:30px;
+}
+.projects{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #888;
+    padding:20px;
+    border-radius: 20px;
+}
+p{
+    color:whitesmoke;
+}
+.contact{
+    background-color: #999;
+    padding:20px;
+    border-radius: 10px;
+}
+
+
